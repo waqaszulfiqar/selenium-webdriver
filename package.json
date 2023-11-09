@@ -1,0 +1,25 @@
+{
+  "name": "soraunion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "author": "waqas zulfiqar",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/cli": "^8.22.1",
+    "chromedriver": "^119.0.1",
+    "dotenv": "^16.3.1",
+    "geckodriver": "^4.2.1",
+    "selenium-standalone": "^9.3.0",
+    "webdriverio": "^8.22.1"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.22.1",
+    "@wdio/mocha-framework": "^8.22.0",
+    "@wdio/spec-reporter": "^8.21.0"
+  }
+}
